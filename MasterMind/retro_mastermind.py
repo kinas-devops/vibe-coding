@@ -1,4 +1,15 @@
-# retro_mastermind.py
+# =============================================================================
+# Generated with help from Microsoft AI Copilot (https://copilot.microsoft.com)
+# =============================================================================
+__author__ = "Kinas, Microsoft AI Copilot"
+__copyright__ = "Copyright 2025, Vibe-Coding Project"
+__credits__ = ["Kinas", "Microsoft AI Copilot"]
+__license__ = "GPL"
+__version__ = "1.0.0"
+__maintainer__ = "Kinas"
+__email__ = "kinas.devops@gmail.com"
+__status__ = "Production"
+# =============================================================================
 
 import random
 import os
