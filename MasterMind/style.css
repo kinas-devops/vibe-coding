@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#board {
+  margin: 20px auto;
+  width: 300px;
+}
+
+#board {
+  transition: opacity 0.5s ease;
+}
+
+.board-hidden {
+  opacity: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guess-section, .feedback-section {
+  display: flex;
+  gap: 10px;
+}
+
+.slot {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+
+.slot, .feedback {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.feedback {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+
+#color-picker {
+  margin: 20px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+.color[data-color="red"] { background: red; }
+.color[data-color="blue"] { background: blue; }
+.color[data-color="green"] { background: green; }
+.color[data-color="yellow"] { background: yellow; }
+.color[data-color="purple"] { background: purple; }
+.color[data-color="orange"] { background: orange; }
+
+#submit {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#preview {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+#preview .slot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #555;
+  box-shadow: 0 0 5px #333;
+}
+
+.slot.selected {
+  border: 4px solid #000;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
