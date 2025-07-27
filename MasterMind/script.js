@@ -21,7 +21,10 @@ function updatePreview() {
   });
 }
 
-
+/**
+ * Generate random secret code
+ * @returns {string[]} Array of colors
+ */
 function generateCode() {
   secretCode = [];
   while (secretCode.length < 4) {
